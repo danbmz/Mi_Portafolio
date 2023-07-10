@@ -1,0 +1,26 @@
+.sobremi{
+    padding-bottom: 2rem;
+}
+.sobremi__container{
+    display: flex;
+}
+.sobremi__titulo{
+    font-family: var(--font-ubuntu);
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.sobremi__imagen{
+    padding-top: 1rem;
+}
+.sobremi__imagen-foto{
+    width: 300px;
+}
+.sobremi__descripcion{
+    padding: 1rem;
+}
+.sobremi__parrafo{
+    font-family: var(--font-montserrat);
+    font-size: 1.2rem;
+}

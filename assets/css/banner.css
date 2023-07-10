@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+    padding: 5rem 0 1rem;
+    background-color: #fdfdfd;
+    height: 60vh;
+  }
+.banner__descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-top: 1rem;
+}
+.banner__titulo{
+    font-family: var(--font-ubuntu);
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.banner__parrafo{
+    font-family: var(--font-montserrat);
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+.banner__RS{
+    display: flex;
+    width: 100%;
+}
+.banner__logos{
+    width: 50px;
+    padding-right: 2rem;
+}
+.banner__foto{
+    width: 35%;
+}
+.banner__foto-perfil{
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 5px #00000020;
+}

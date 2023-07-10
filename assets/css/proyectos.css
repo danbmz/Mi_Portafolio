@@ -1,0 +1,54 @@
+.proyectos container{
+    background: wheat;
+}
+.proyectos__titulo{
+    font-family: var(--font-ubuntu);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.proyectos__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.proyectos__items{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.proyectos__imagen{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 5px #00000020;
+    transition: 1s;
+}
+.proyectos__imagen:hover{
+    transform: scale(1.05);
+}
+.proyectos__subtitulo{
+    font-family: var(--font-ubuntu);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.proyectos__boton-repo{
+    background: none;
+    padding: .5rem 1rem;
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+}
+.proyectos__boton-demo{
+    background: linear-gradient(to right, blue,pink);
+    border: none;
+    padding: .6rem 1rem;
+    color: #fdfdfd;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+}

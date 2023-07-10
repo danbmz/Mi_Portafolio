@@ -1,0 +1,11 @@
+:root{
+    --font-ubuntu:'Ubuntu', sans-serif;
+    --font-montserrat:'Montserrat', sans-serif;
+    --background: black;
+    --main-color: #fdfdfd;
+    --second-color: blue;   
+}
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}

@@ -1,0 +1,33 @@
+.header{
+    text-align: center;
+    background: black;
+    color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+.name{
+    padding: 1rem;
+}
+.name__titulo{
+    font-family: var(--font-ubuntu);
+    font-size: 2.5rem;
+}
+.conteiner__menu{
+    display: flex;
+    margin-top: 2rem;
+}
+.menu__lista{
+    display: flex;
+}
+.menu__items{
+    list-style: none;
+    margin: 0 1.5rem 0 0;
+    font-family: var(--font-montserrat);
+    cursor: pointer;
+}
+.menu__items:hover{
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+

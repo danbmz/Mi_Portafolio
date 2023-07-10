@@ -1,0 +1,91 @@
+.contacto{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contacto__titulo{
+    font-family: var(--font-ubuntu);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.contacto__container{
+    display: flex;
+}
+.contacto__descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.contacto__subtitulo{
+    font-family: var(--font-ubuntu);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+.contacto__parrafo{
+    font-family: var(--font-montserrat);
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.contacto__RS{
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+}
+.contacto__logo{
+    width: 50px;
+    padding-right: 2rem;
+}
+.contacto__formulario{
+    padding: 1rem;
+}
+.formulario label{
+    display: block;
+    font-family: var(--font-montserrat);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.contacto__input{
+    box-shadow: 0 2px 10px 5px #00000020;
+    padding: .5rem 1rem;
+    color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}
+.boton__enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enviar{
+    background: linear-gradient(to right, blue,pink);
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    width: 200px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#enviar:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* ////////////////footer/////////////// */
+.footer{
+    padding: 2rem;
+    background: black;
+    color: #fdfdfd;
+    font-family: var(--font-ubuntu);
+    font-size: 1.2rem;
+    text-align: center;
+}
