@@ -1,29 +1,35 @@
 .habilidades__container{
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .skills__container{
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 .skills__titulo{
     font-family: var(--font-ubuntu);
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 .skills__lista{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 .skills__items{
     background: var(--main-color);
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px 5px #00000020;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .skills__items-titulo{
     font-family: var(--font-ubuntu);
@@ -32,7 +38,7 @@
     padding: 1rem;  
     text-align: center;
 }
-/* ///////////////elementos individuales//////////////////// */
+/* ///////////////elementos individuales Skills//////////////////// */
 .skills__items-html{
     width: 100px;
 }
@@ -47,11 +53,41 @@
 }
 .skills__items-git{
     width: 115px;
-    padding-left: .65rem;
 }
 .skills__items-GPT{
     width: 115px;
 }
+
+/* ////////////////////////////Soft skills//////////////////////////////// */
+
+.soft__skills-lista{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+/* ///////////////elementos individuales Soft Skills//////////////////// */
+
+.skills__items-comu{
+    width: 100px;
+}
+.skills__items-equipo{
+    width: 115px;
+}
+.skills__items-empatia{
+    width: 110px;
+}
+.skills__items-flex{
+    width: 130px;
+}
+.skills__items-tiempo{
+    width: 115px;
+}
+.skills__items-mente{
+    width: 115px;
+}
+
 
 /* ...................Diseno del apartado de hobbies....................... */
 
@@ -69,16 +105,18 @@
 }
 .hobbies__lista{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 .hobbies__items{
     background: var(--main-color);
+    width: 130px;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px 5px #00000020;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .hobbies__items-titulo{
@@ -89,5 +127,27 @@
     text-align: center;
 }
 .hobbies__items-logos{
-    width: 100px;
+    width: 120px;
+}
+
+@media screen and (max-width: 629px){
+    .skills__titulo{
+        font-size: 2.5rem;
+    }
+    .skills__lista{
+        flex-direction: column;
+    }
+    .soft__skills-lista{
+        flex-direction: column;
+    }
+    .hobbies__titulo{
+        font-size: 2.5rem;
+    }
+    .hobbies__lista{
+        flex-direction: column;
+    }
+    .hobbies__items{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

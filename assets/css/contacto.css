@@ -89,3 +89,57 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+/* Media queris */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contacto__container{
+        flex-direction: column;
+      }
+    .contacto__formulario{
+        display: flex;
+        justify-content: center;
+    }
+    .contacto__RS{
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contacto__container{
+        flex-direction: column;
+      }
+    .contacto__formulario{
+        display: flex;
+        justify-content: center;
+    }
+    .contacto__RS{
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 629px){
+    .contacto__titulo{
+        font-size: 2.5rem;
+    }
+    .contacto__parrafo{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .contacto__formulario{
+        padding: 0;
+    }
+    .contacto__input{
+        margin-top: .5rem;
+        color: black;
+        max-width: 340px;
+        box-sizing: border-box;
+    }
+    .formulario{
+        min-width: 350px;
+        box-sizing: border-box;
+    }
+    .footer__creditos{
+        font-size: 1rem;
+    }
+  }
