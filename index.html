@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="assets/css/formacion.css">
         <link rel="stylesheet" href="assets/css/proyectos.css">
         <link rel="stylesheet" href="assets/css/contacto.css">
-        <title>Portafolio | Dan Bermudez</title>
+        <link rel="icon" href="assets/img/usuario.png">
+        <title>Dan Bermudez | Mi Portafolio</title>
     </head>
 
     <body>
@@ -41,7 +42,7 @@
                         <li class="banner__lista"><a href="https://github.com/danbmz" target="_blank" class="banner__link"><img src="assets/img/github.png" alt="" class="banner__logos"></a></li>
                         <li class="banner__lista"><a href="https://www.linkedin.com/in/dev-daniel-bermudez/" target="_blank" class="banner__link"><img src="assets/img/linkedin.png" alt="" class="banner__logos"></a></li>
                         <li class="banner__lista"><a href="https://twitter.com/Dannk01" target="_blank" class="banner__link"><img src="assets/img/twitter.png" alt="" class="banner__logos"></a></li>
-                        <li class="banner__lista"><a href="" target="_blank" class="banner__link"><img src="assets/img/cv.png" alt="" class="banner__logos"></a></li>
+                        <li class="banner__lista"><a href="" target="_blank" class="banner__link"><img src="assets/img/cvv.png" alt="" class="banner__logos"></a></li>
                     </ul>
                 </div>
                 <div class="banner__foto"><img src="assets/img/Foto_perfil.jpg" alt="foto de perfil" class="banner__foto-perfil"></div>
@@ -53,7 +54,7 @@
                     <div class="sobremi__imagen"><img src="assets/img/Free Vector _ Code typing concept illustration.jfif" alt="" class="sobremi__imagen-foto"></div>
                     <div class="sobremi__descripcion">
                         <p class="sobremi__parrafo">Me llamo Daniel Bermudez y soy estudiante de programación enfocado en el desarrollo Front-end. Tengo 21 años y soy de México, precisamente del Estado de México.<br><br> 
-                            Hasta ahora, he aprendido a usar tecnologias como HTML5, CSS3, JavaScript y React. Además, estoy familiarizado con herramientas como VSCode, la terminal de Ubuntu (WSL), Git y GitHub, y también he explorado el uso de herramientas de IA para mejorar mi aprendizaje y rendimiento en el desarrollo de programas.<br><br>
+                            Hasta ahora, he aprendido a usar tecnologías como HTML5, CSS3, JavaScript y React. Además, estoy familiarizado con herramientas como VSCode, la terminal de Ubuntu (WSL), Git y GitHub, y también he explorado el uso de herramientas de IA para mejorar mi aprendizaje y rendimiento en el desarrollo de programas.<br><br>
                             Actualmente, mi objetivo es pulir y perfeccionar las habilidades que ya he adquirido, reforzando los conceptos fundamentales y explorando nuevas herramientas y tecnologías.<br><br>
                             ¡Siempre estoy emocionado por crecer y expandir mis habilidades en el fascinante mundo de la tecnología!</p>
                     </div>
@@ -163,7 +164,7 @@
                 <div class="formacion__lista">
                     <div class="formacion__items">
                         <img src="assets/img/formaciones/Logo_de_la_UAEMex.png" alt="" class="formacion__imagen-UAEM">
-                        <h3 class="formacion__subtitulo">Universidad Autonoma <br>del Estado de México</h3>
+                        <h3 class="formacion__subtitulo">Universidad Autónoma <br>del Estado de México</h3>
                         <p class="formacion__fechas">2020-Actualidad</p>
                     </div>
                     <div class="formacion__items">
@@ -204,10 +205,10 @@
             </section>
 
             <section class="contacto container" id="contacto">
-                <h2 class="contacto__titulo">Contactame</h2>
+                <h2 class="contacto__titulo">Contáctame</h2>
                 <div class="contacto__container">
                     <div class="contacto__descripcion">
-                        <p class="contacto__parrafo">Completa el siguiente formulario y me pondre en contacto contigo</p>
+                        <p class="contacto__parrafo">Completa el siguiente formulario y me pondré en contacto contigo.</p>
                         <div class="contacto__RS">
                             <a href="https://github.com/danbmz" class="contacto__logos" target="_blank"><img src="assets/img/github.png" alt="" class="contacto__logo"></a>
                             <a href="https://www.linkedin.com/in/dev-daniel-bermudez/" class="contacto__logos" target="_blank"><img src="assets/img/linkedin.png" alt="" class="contacto__logo"></a>
@@ -218,18 +219,27 @@
                         <form action="" class="formulario">
                             <label for="name">Nombre</label>
                             <input type="text" id="name" class="contacto__input" required placeholder="Escribe tu nombre">
+                            <span class="input-message-error"></span>
 
                             <label for="correo">Correo Electrónico</label>
                             <input type="email" id="correo" class="contacto__input" required placeholder="email@dominio.com">
+                            <span class="input-message-error"></span>
 
-                            <label for="telefono">Asunto</label>
-                            <input type="tel" id="telefono" class="contacto__input" required placeholder="Escribe el asunto">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" class="contacto__input" required placeholder="Escribe el asunto" minlength="8">
+                            <span class="input-message-error"></span>
 
                             <label for="mensaje">Mensaje</label>
                             <textarea id="mensaje" cols="53" rows="10" class="contacto__input" required placeholder="Escribe un mensaje"></textarea>
+                            <span class="input-message-error"></span>
 
-                            <div class="boton__enviar"><input type="submit" value="Enviar formulario" id="enviar"></div>
+                            <div class="boton__enviar"><input type="submit" value="Enviar" id="enviar"></div>
                         </form>
+                        <div class="verificado__container">
+                            <img src="assets/img/comprobar.png" alt="verificado" class="imagen__veridicado">
+                            <h3>El formulario ha sido enviado con éxito</h3>
+                            <p>Pronto me estaré comunicando con usted.</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -239,6 +249,8 @@
         <footer class="footer">
             <h3 class="footer__creditos">Desarrollado por Dan Bermudez</h3>
         </footer>
+
+        <script src="assets/javascript/app.js"></script>
         
     </body>
 </html>

@@ -62,7 +62,7 @@
     }
     .proyectos__imagen{
         max-width: 350px;
-        min-width: 300px;
+        min-width: 250px;
     }
     .proyectos__subtitulo{
         font-size: 1.2rem;
