@@ -12,10 +12,45 @@
 html{
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 *,*:before,*:after {
     box-sizing: inherit;
 }
 body{
-    background-color: red;
+    font-size: 16px;
+}
+h1,h2,h3 { 
+    text-align: center; 
+    margin: 2rem 0; 
+    font-family: var(--font-ubuntu);
+}
+h1{ 
+    font-size: 4rem;
+}
+h2 { 
+    font-size: 3rem;
+    margin-bottom: 4rem;
+} 
+h3 { 
+    font-size: 2rem; 
+}
+.boton_1{
+    background: none;
+    padding: 1rem;
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+}
+.boton_2{
+    background: linear-gradient(to right, blue,pink);
+    border: none;
+    padding: 1rem;
+    color: #fdfdfd;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
 }

@@ -3,27 +3,28 @@
     background: black;
     color: var(--main-color);
     display: flex;
-    justify-content: space-between;
-    padding: 3rem 2rem;
+    flex-direction: column;
+    padding-bottom: 4rem;
 }
-.name{
+/* .name{
     padding: 1rem;
-}
+} */
 .name__titulo{
     font-family: var(--font-ubuntu);
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 .conteiner__menu{
     display: flex;
-    margin-top: 2rem;
+    justify-content: center;
 }
 .menu__lista{
     display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 .menu__items{
     list-style: none;
-    margin: 0 1.5rem 0 0;
     font-family: var(--font-montserrat);
     cursor: pointer;
 }
@@ -34,15 +35,15 @@
 
 /* Medias querias */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .header{
         flex-direction: column;
         align-items: center;
         gap: 20px;
 
-        /* padding: 5rem 0 1rem;
+        padding: 5rem 0 1rem;
         background-color: #fdfdfd;
-        height: 60vh; */
+        height: 60vh; 
     }
 }
 
@@ -62,4 +63,4 @@
     .conteiner__menu{
         margin-top: 0;
     }
-}
+} */

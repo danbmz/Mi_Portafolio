@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.pdf{
+    padding: 3rem;
+}
+.pdf h1{
+    color: white;
+}
+.pdf p{
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

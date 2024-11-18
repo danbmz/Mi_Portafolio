@@ -1,22 +1,17 @@
-/* .banner{
-    display: flex;
-    flex-direction: column;
-} */
-.banner__descripcion{
+.banner__descripcion{ 
     display: grid;
     grid-template-columns: auto;
-    gap: 1rem;
-    margin: 1rem 0;
+    gap: 2rem;
+    margin: 2rem 0;
 }
 .banner__titulo{
-    font-family: var(--font-ubuntu);
-    font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 2rem;
 }
 .banner__parrafo{
     font-family: var(--font-montserrat);
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     text-align: justify;
 }
 .banner__RS{
@@ -26,9 +21,10 @@
 .banner__logos{
     width: 50px;
 }
-/* .banner__foto{
-    width: 35%;
-} */
+.banner__foto{
+    display: flex;
+    justify-content: center;
+}
 .banner__foto-perfil{
     width: min(100%, 350px);
     border-radius: 50%;

@@ -1,21 +1,17 @@
-.proyectos container{
-    background: wheat;
+.proyectos{
+    padding: 2rem 0;
 }
 .proyectos__titulo{
     font-family: var(--font-ubuntu);
-    font-size: 3rem;
     font-weight: bold;
-    text-align: center;
-    padding-bottom: 2rem;
 }
 .proyectos__container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    gap: 3rem;
 }
 .proyectos__items{
-    padding-bottom: 2rem;
     text-align: center;
 }
 .proyectos__imagen{
@@ -29,31 +25,10 @@
 }
 .proyectos__subtitulo{
     font-family: var(--font-ubuntu);
-    font-size: 1.5rem;
     font-weight: bold;
-    padding: 1rem;
-}
-.proyectos__boton-repo{
-    background: none;
-    padding: .5rem 1rem;
-    color: blue;
-    font-weight: bold;
-    border-radius: 5px;
-    border-color: blue;
-    cursor: pointer;
-}
-.proyectos__boton-demo{
-    background: linear-gradient(to right, blue,pink);
-    border: none;
-    padding: .6rem 1rem;
-    color: #fdfdfd;
-    font-weight: bold;
-    border-radius: 5px;
-    border-color: blue;
-    cursor: pointer;
 }
 
-@media screen and (max-width: 629px){
+/* @media screen and (max-width: 629px){
     .proyectos{
         padding: 2rem 0;
     }
@@ -67,4 +42,4 @@
     .proyectos__subtitulo{
         font-size: 1.2rem;
     }
-}
+} */
