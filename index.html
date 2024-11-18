@@ -14,12 +14,14 @@
         <link rel="stylesheet" href="assets/css/proyectos.css">
         <link rel="stylesheet" href="assets/css/contacto.css">
         <link rel="icon" href="assets/img/usuario.png">
-        <title>Dan Bermudez | Mi Portafolio</title>
+        <title>Dan Bermudez DEV</title>
     </head>
 
     <body>
         <header class="header">
-            <div class="name"><h1 class="name__titulo">Dan Bermudez</h1></div>
+            <div class="name">
+                <a href="index.html"><h1 class="name__titulo">DanDev</h1></a>
+            </div>
             <div class="conteiner__menu">
                 <nav class="menu">
                     <ul class="menu__lista">
@@ -34,9 +36,11 @@
         </header>
 
         <main>
-            <section class="banner">
-                <div class="banner__descripcion container">
+            <section class="banner container">
+                <div class="banner__descripcion">
                     <h2 class="banner__titulo">Hola, mi nombre es Dan y soy estudiante de programación en Front-end</h2>
+                    <div class="banner__foto"><img src="assets/img/Foto_perfil.jpg" alt="foto de perfil" class="banner__foto-perfil">
+                    </div>
                     <p class="banner__parrafo">Mi trayectoria en el área de la tecnología es corta, sin embargo, he aprendido muchas cosas de la mano de plataformas de educación como lo es Alura, actualmente soy parte del programa Oracle ONE en Alura Latam.</p>
                     <ul class="banner__RS">
                         <li class="banner__lista"><a href="https://github.com/danbmz" target="_blank" class="banner__link"><img src="assets/img/github.png" alt="" class="banner__logos"></a></li>
@@ -45,11 +49,10 @@
                         <li class="banner__lista"><a href="" target="_blank" class="banner__link"><img src="assets/img/cvv.png" alt="" class="banner__logos"></a></li>
                     </ul>
                 </div>
-                <div class="banner__foto"><img src="assets/img/Foto_perfil.jpg" alt="foto de perfil" class="banner__foto-perfil"></div>
             </section>
 
             <section class="sobremi container" id="sobremi">
-                <h2 class="sobremi__titulo">Sobre mi</h2>
+                <h2 class="sobremi__titulo">Que es lo que hago?</h2>
                 <div class="sobremi__container">
                     <div class="sobremi__imagen"><img src="assets/img/Free Vector _ Code typing concept illustration.jfif" alt="" class="sobremi__imagen-foto"></div>
                     <div class="sobremi__descripcion">
@@ -125,38 +128,6 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="hobbies__container" id="hobbies">
-                    <h2 class="hobbies__titulo">Hobbies</h2>
-                    <div class="hobbies">
-                        <ul class="hobbies__lista">
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/camara.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Fotografía</h3>
-                            </li>
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/libro.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Lectura</h3>
-                            </li>
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/corriendo.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Deporte</h3>
-                            </li>
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/sendero.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Senderismo</h3>
-                            </li>
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/auriculares-inalambricos.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Música</h3>
-                            </li>
-                            <li class="hobbies__items">
-                                <img src="assets/img/hobbies/consola-de-juego.png" alt="" class="hobbies__items-logos">
-                                <h3 class="hobbies__items-titulo">Videojuegos</h3>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </section>
 
             <section class="formacion container" id="formacion">
@@ -216,7 +187,7 @@
                         </div>
                     </div>
                     <div class="contacto__formulario">
-                        <form action="" class="formulario">
+                        <form action="submit" class="formulario">
                             <label for="name">Nombre</label>
                             <input type="text" id="name" class="contacto__input" required placeholder="Escribe tu nombre">
                             <span class="input-message-error"></span>

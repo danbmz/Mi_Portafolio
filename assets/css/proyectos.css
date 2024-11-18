@@ -19,7 +19,7 @@
     text-align: center;
 }
 .proyectos__imagen{
-    width: 500px;
+    width: min(500px, 100%);
     border-radius: 15px;
     box-shadow: 0 2px 10px 5px #00000020;
     transition: 1s;

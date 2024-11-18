@@ -1,46 +1,43 @@
 .sobremi{
-    padding-top: 2rem;
-    padding-bottom: 12rem;
+    padding: 2rem 0;
 }
 .sobremi__container{
     display: flex;
 }
 .sobremi__titulo{
     font-family: var(--font-ubuntu);
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     font-weight: bold;
-    padding-bottom: 1rem;
+    margin-bottom:1.5rem;
 }
 .sobremi__imagen{
-    padding-top: 1rem;
+    display: none;
 }
 .sobremi__imagen-foto{
     width: 300px;
 }
-.sobremi__descripcion{
-    padding: 1rem;
-}
 .sobremi__parrafo{
     font-family: var(--font-montserrat);
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 /* Media queris */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
     .sobremi__imagen{
         display: none;
-      }
-  }
+    }
+}
 
 @media screen and (max-width: 768px) {
     .sobremi__imagen{
         display: none;
-      }
-  }
+    }
+}
 
-  @media screen and (max-width: 629px){
+@media screen and (max-width: 629px){
     .sobremi__titulo{
         font-size: 2.5rem;
     }
@@ -51,4 +48,4 @@
     .sobremi{
         padding-bottom: 4.5rem;
     }
-  }
+} */

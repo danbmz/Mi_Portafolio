@@ -12,6 +12,7 @@
 .name__titulo{
     font-family: var(--font-ubuntu);
     font-size: 2.5rem;
+    font-weight: bold;
 }
 .conteiner__menu{
     display: flex;
@@ -42,10 +43,10 @@
         /* padding: 5rem 0 1rem;
         background-color: #fdfdfd;
         height: 60vh; */
-      }
-  }
+    }
+}
 
-  @media screen and (max-width: 629px) {
+@media screen and (max-width: 629px) {
     .header{
         flex-direction: column;
         align-items: center;
@@ -61,4 +62,4 @@
     .conteiner__menu{
         margin-top: 0;
     }
-  }
+}

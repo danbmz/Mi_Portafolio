@@ -6,9 +6,16 @@
     --second-color: blue;   
 }
 .container{
-    padding-left: 6%;
-    padding-right: 6%;
+    Width: min(120rem, 90%);
+    Margin: 0 auto;
 }
 html{
     scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: red;
 }
