@@ -5,6 +5,7 @@
     font-family: var(--font-ubuntu);
     font-weight: bold;
     color: var(--blanco);
+    text-transform: uppercase;
 }
 .proyectos__container{
     display: flex;
@@ -42,5 +43,10 @@
     }
     .proyectos__container{
         gap: 5rem;
+    }
+}
+@media (min-width: 992px) {
+    .proyectos__titulo{
+        font-size: 5rem;
     }
 }

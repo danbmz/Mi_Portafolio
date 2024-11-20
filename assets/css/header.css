@@ -37,15 +37,16 @@
 /* Medias querias */
 @media (min-width: 768px) {
     .header{
-        padding: 2rem 0;
+        padding: 3rem 0;
     }
     .header_nav{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
     }
     .menu__lista{
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
     }
 }

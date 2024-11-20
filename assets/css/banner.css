@@ -16,8 +16,11 @@
 }
 .banner__parrafo{
     font-family: var(--font-montserrat);
-    /* font-size: 1.2rem; */
+    line-height: 1.3;
     text-align: justify;
+}
+.banner__parrafo span{
+    font-weight: bold;
 }
 .banner__RS{
     display: flex;
@@ -47,19 +50,25 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .banner__titulo{
-        grid-column: 2/4;
+        grid-column: 1/3;
         margin-bottom: 0;
         text-align: left;
         font-size: 4rem
     }
     .banner__foto{
         grid-row: 1/4;
+        grid-column: 3/4;
     }
     .banner__parrafo{
-        grid-column: 2/4;
+        grid-column: 1/3;
         /* margin-top: 20%; */
     }
     .banner__RS{
-        grid-column: 2/4;
+        grid-column: 1/3;
+    }
+}
+@media (min-width: 992px) {
+    .banner__titulo{
+        font-size: 6rem;
     }
 }
