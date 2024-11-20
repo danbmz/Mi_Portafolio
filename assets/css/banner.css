@@ -1,13 +1,18 @@
+.banner{
+    padding: 3rem 0 6rem 0;
+    border-radius: 3rem;
+    box-shadow: -2px -1px 21px 3px rgba(0,0,0,0.64);
+    background-color: var(--blanco);
+}
 .banner__descripcion{ 
     display: grid;
     grid-template-columns: auto;
     gap: 2rem;
-    margin: 2rem 0;
+    /* margin: 2rem; */
 }
 .banner__titulo{
     font-weight: bold;
     text-align: center;
-    margin-bottom: 2rem;
 }
 .banner__parrafo{
     font-family: var(--font-montserrat);
@@ -32,57 +37,29 @@
 }
 /*//////////////////////// Media Queris///////////////// */
 
-/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
     .banner{
-        flex-direction: column;
-        gap: 20px;
+        padding: 7rem 0 7rem 0;
+        display: flex;
+        align-items: center;
     }
     .banner__descripcion{
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .banner__foto{
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .banner{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .banner__descripcion{
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .banner__foto{
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 629px) {
-    .banner{
-        padding-top: 2rem;
+        grid-template-columns: repeat(3, 1fr);
     }
     .banner__titulo{
-        font-size: 2.5rem;
-        text-align: center;
+        grid-column: 2/4;
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 4rem
+    }
+    .banner__foto{
+        grid-row: 1/4;
     }
     .banner__parrafo{
-        font-size: 1rem;
-        text-align: justify;
+        grid-column: 2/4;
+        /* margin-top: 20%; */
     }
     .banner__RS{
-        justify-content: center;
+        grid-column: 2/4;
     }
-    .banner__foto-perfil{
-        width: 280px;
-    }
-
-} */
+}

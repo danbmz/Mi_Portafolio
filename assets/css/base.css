@@ -1,9 +1,11 @@
 :root{
     --font-ubuntu:'Ubuntu', sans-serif;
     --font-montserrat:'Montserrat', sans-serif;
-    --background: black;
-    --main-color: #fdfdfd;
-    --second-color: blue;   
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --azul: #067DBD;  
+    --azul-claro: #0798E6; 
+    --gris: #DFDDDE; 
 }
 .container{
     Width: min(120rem, 90%);
@@ -19,6 +21,7 @@ html{
 }
 body{
     font-size: 16px;
+    background-color: #000000;
 }
 h1,h2,h3 { 
     text-align: center; 

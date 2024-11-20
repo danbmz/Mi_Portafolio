@@ -1,5 +1,7 @@
 .contacto{
     padding: 2rem 0;
+    border-radius: 3rem;
+    background-color: var(--blanco);
 }
 .contacto__titulo{
     font-family: var(--font-ubuntu);

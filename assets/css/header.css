@@ -1,22 +1,21 @@
 .header{
-    text-align: center;
     background: black;
-    color: var(--main-color);
+    padding: 2rem 0 4rem 0;
+    margin-bottom: 2rem;
+    /* box-shadow: -2px -1px 21px 3px rgba(0,0,0,0.64); */
+}
+.header_nav{
+    text-align: center;
+    color: var(--blanco);
     display: flex;
     flex-direction: column;
-    padding-bottom: 4rem;
 }
-/* .name{
-    padding: 1rem;
-} */
 .name__titulo{
-    font-family: var(--font-ubuntu);
     font-size: 5rem;
     font-weight: bold;
-}
-.conteiner__menu{
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .menu__lista{
     display: flex;
@@ -31,36 +30,23 @@
 .menu__items:hover{
     font-weight: bolder;
     transform: scale(1.1);
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Medias querias */
-
-/* @media screen and (max-width: 768px) {
+@media (min-width: 768px) {
     .header{
-        flex-direction: column;
+        padding: 2rem 0;
+    }
+    .header_nav{
+        flex-direction: row;
         align-items: center;
-        gap: 20px;
-
-        padding: 5rem 0 1rem;
-        background-color: #fdfdfd;
-        height: 60vh; 
+        justify-content: space-between;
+    }
+    .menu__lista{
+        flex-direction: row;
+        gap: 2rem;
     }
 }
-
-@media screen and (max-width: 629px) {
-    .header{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    } 
-    .menu__lista{
-        flex-direction: column;
-    }
-    .menu__items{
-        margin: 0;
-        padding-bottom: 10px;
-    }
-    .conteiner__menu{
-        margin-top: 0;
-    }
-} */

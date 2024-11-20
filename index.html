@@ -19,8 +19,9 @@
 
     <body>
         <header class="header">
-            <a href="index.html" class="name"><h1 class="name__titulo">DanDev</h1></a>
-            <div class="conteiner__menu">
+            <div class="header_nav container">
+                <a href="index.html" class="name"><h1 class="name__titulo">DanDev</h1></a>
+                <div class="conteiner__menu">
                 <nav class="menu">
                     <ul class="menu__lista">
                         <li class="menu__items"><a href="#sobremi">Sobre mi</a></li>
@@ -29,13 +30,14 @@
                         <li class="menu__items"><a href="#proyectos">Proyectos</a></li>
                     </ul>   
                 </nav>
+                </div>
             </div>
         </header>
 
         <main>
-            <section class="banner container">
-                <div class="banner__descripcion">
-                    <h2 class="banner__titulo">Hola, mi nombre es Dan y soy estudiante de programación en Front-end</h2>
+            <section class="banner">
+                <div class="banner__descripcion container">
+                    <h2 class="banner__titulo">Hola, soy desarrollador web</h2>
                     <div class="banner__foto"><img src="assets/img/Foto_perfil.jpg" alt="foto de perfil" class="banner__foto-perfil">
                     </div>
                     <p class="banner__parrafo">Mi trayectoria en el área de la tecnología es corta, sin embargo, he aprendido muchas cosas de la mano de plataformas de educación como lo es Alura, actualmente soy parte del programa Oracle ONE en Alura Latam.</p>
@@ -173,36 +175,38 @@
                 </div>
             </section>
 
-            <section class="contacto container" id="contacto">
-                <h2 class="contacto__titulo">Contáctame</h2>
-                <div class="contacto__container">
-                    <div class="contacto__descripcion">
-                        <p class="contacto__parrafo">Completa el siguiente formulario y me pondré en contacto contigo.</p>
-                    </div>
-                    <div class="contacto__formulario">
-                        <form action="submit" class="formulario">
-                            <label for="name">Nombre</label>
-                            <input type="text" id="name" class="contacto__input" required placeholder="Escribe tu nombre">
-                            <span class="input-message-error"></span>
+            <section class="contacto" id="contacto">
+                <div class="container">
+                    <h2 class="contacto__titulo">Contáctame</h2>
+                    <div class="contacto__container">
+                        <div class="contacto__descripcion">
+                            <p class="contacto__parrafo">Completa el siguiente formulario y me pondré en contacto contigo.</p>
+                        </div>
+                        <div class="contacto__formulario">
+                            <form action="submit" class="formulario">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" class="contacto__input" required placeholder="Escribe tu nombre">
+                                <span class="input-message-error"></span>
 
-                            <label for="correo">Correo Electrónico</label>
-                            <input type="email" id="correo" class="contacto__input" required placeholder="email@dominio.com">
-                            <span class="input-message-error"></span>
+                                <label for="correo">Correo Electrónico</label>
+                                <input type="email" id="correo" class="contacto__input" required placeholder="email@dominio.com">
+                                <span class="input-message-error"></span>
 
-                            <label for="asunto">Asunto</label>
-                            <input type="text" id="asunto" class="contacto__input" required placeholder="Escribe el asunto" minlength="8">
-                            <span class="input-message-error"></span>
+                                <label for="asunto">Asunto</label>
+                                <input type="text" id="asunto" class="contacto__input" required placeholder="Escribe el asunto" minlength="8">
+                                <span class="input-message-error"></span>
 
-                            <label for="mensaje">Mensaje</label>
-                            <textarea id="mensaje" cols="53" rows="10" class="contacto__input" required placeholder="Escribe un mensaje"></textarea>
-                            <span class="input-message-error"></span>
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" cols="53" rows="10" class="contacto__input" required placeholder="Escribe un mensaje"></textarea>
+                                <span class="input-message-error"></span>
 
-                            <div class="boton__enviar"><input type="submit" value="Enviar" id="enviar" class="boton_2"></div>
-                        </form>
-                        <div class="verificado__container">
-                            <img src="assets/img/comprobar.png" alt="verificado" class="imagen__veridicado">
-                            <h3>El formulario ha sido enviado con éxito</h3>
-                            <p>Pronto me estaré comunicando con usted.</p>
+                                <div class="boton__enviar"><input type="submit" value="Enviar" id="enviar" class="boton_2"></div>
+                            </form>
+                            <div class="verificado__container">
+                                <img src="assets/img/comprobar.png" alt="verificado" class="imagen__veridicado">
+                                <h3>El formulario ha sido enviado con éxito</h3>
+                                <p>Pronto me estaré comunicando con usted.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
