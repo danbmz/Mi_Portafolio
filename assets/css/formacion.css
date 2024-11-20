@@ -4,6 +4,8 @@
 .formacion__titulo{
     font-family: var(--font-ubuntu);
     font-weight: bold;
+    color: var(--blanco);
+    text-transform: uppercase;
 }
 .formacion__lista{
     display: flex;
@@ -15,6 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--blanco);
 }
 .formacion__subtitulo{
     font-family: var(--font-ubuntu);
@@ -41,21 +44,12 @@
     box-shadow: 0 2px 10px 5px #00000020;
 }
 
-/* @media screen and (max-width: 629px){
+@media (min-width: 768px) {
     .formacion__titulo{
-        font-size: 2.5rem;
-        padding-bottom: 2rem;
+        font-size: 4rem;
+        margin-bottom: 6rem;
     }
-    .formacion__imagen-UAEM{
-        width: 180px;
+    .formacion__lista{
+        flex-direction: row;
     }
-    .formacion__imagen-alura{
-        width: 180px;
-    }
-    .formacion__imagen-platzi{
-        width: 180px;
-    }
-    .formacion{
-        padding-bottom: 2rem;
-    }
-} */
+}

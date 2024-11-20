@@ -38,20 +38,11 @@ h2 {
 h3 { 
     font-size: 2rem; 
 }
-.boton_1{
-    background: none;
-    padding: 1rem;
-    color: blue;
-    font-weight: bold;
-    border-radius: 5px;
-    border-color: blue;
-    cursor: pointer;
-}
 .boton_2{
-    background: linear-gradient(to right, blue,pink);
+    background: linear-gradient(to right, red, blue);
     border: none;
     padding: 1rem;
-    color: #fdfdfd;
+    color: var(--blanco);
     font-weight: bold;
     border-radius: 5px;
     border-color: blue;

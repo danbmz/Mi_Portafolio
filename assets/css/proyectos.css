@@ -4,6 +4,7 @@
 .proyectos__titulo{
     font-family: var(--font-ubuntu);
     font-weight: bold;
+    color: var(--blanco);
 }
 .proyectos__container{
     display: flex;
@@ -13,6 +14,9 @@
 }
 .proyectos__items{
     text-align: center;
+}
+.proyectos__items:last-of-type{
+    margin-bottom: 3rem;
 }
 .proyectos__imagen{
     width: min(500px, 100%);
@@ -26,20 +30,17 @@
 .proyectos__subtitulo{
     font-family: var(--font-ubuntu);
     font-weight: bold;
+    color: var(--blanco);
+    text-transform: uppercase;
 }
 
-/* @media screen and (max-width: 629px){
-    .proyectos{
-        padding: 2rem 0;
-    }
+@media (min-width: 768px) {
     .proyectos__titulo{
-        font-size: 2.5rem;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 6rem;
     }
-    .proyectos__imagen{
-        max-width: 350px;
-        min-width: 250px;
+    .proyectos__container{
+        gap: 5rem;
     }
-    .proyectos__subtitulo{
-        font-size: 1.2rem;
-    }
-} */
+}
